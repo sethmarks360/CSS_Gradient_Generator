@@ -8,6 +8,8 @@ console.log(css_printed);
 console.log(color1);
 console.log(color2);
 
+document.onload = setGradient(); // Shows the initial red/green CSS code
+
 //Function setGradient() changes the background gradient
 function setGradient(){
     
